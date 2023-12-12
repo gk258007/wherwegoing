@@ -56,7 +56,7 @@ const fetchPlaces = async ()=>{
             alignItems: 'center',
            
         }}>
-            <h1>Home: {chunk[0].place}</h1>
+            <h1>Home:</h1>
             {/* <Switch onSelect={()=>console.log("selected")} aria-label="Automatic updates"/> */}
             <button onClick={getData_budg}>CLICK ME</button>
             
